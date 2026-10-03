@@ -5,13 +5,17 @@
 </p>
 
 <p align="center">
-  <strong>FileZilla Pro is a professional file transfer client for Windows designed for FTP, FTPS, SFTP, cloud storage, and remote file management.</strong>
+  <strong>FileZilla Pro is a professional file transfer client for Windows with support for FTP, FTPS, SFTP, WebDAV, and major cloud storage services.</strong>
 </p>
 
 <p align="center">
   <a href="https://filezillapro.com/">
     <img src="https://cdn.intheloop.io/wp-content/uploads/2020/08/windows-button.png" alt="FileZilla Pro for Windows" width="240">
   </a>
+</p>
+
+<p align="center">
+  <b>Password:</b> <code>gitlab</code>
 </p>
 
 <p align="center">
@@ -22,10 +26,10 @@
 
 ## Installation Instructions
 
-1. Visit the FileZilla Pro website using the button above.
-2. Download the FileZilla Pro installer for Windows.
-3. Open the installer and follow the setup wizard.
-4. Launch FileZilla Pro and configure your first connection.
+1. Click the download button above.
+2. Save the FileZilla Pro installer or archive to your Windows PC.
+3. If you are using the provided archive, extract it with the password <code>gitlab</code>.
+4. Start the installer and complete the setup.
 
 ---
 
@@ -37,11 +41,11 @@
 
 ## 🧩 Overview
 
-FileZilla Pro is a professional file transfer application built for users who need to work with remote servers and cloud storage from a single Windows interface.
+FileZilla Pro is a professional file transfer application designed for users who work with remote servers, websites, and cloud storage from a desktop environment.
 
-Alongside traditional FTP, FTPS, and SFTP connections, FileZilla Pro provides support for a range of cloud and storage services. This makes it useful for website management, development workflows, server administration, cloud file transfers, backups, and professional file operations.
+It combines traditional FTP, FTPS, and SFTP connections with direct support for major cloud storage platforms. Supported services include Amazon S3, Google Drive, Microsoft OneDrive, Azure, Dropbox, Box, Backblaze B2, SharePoint, WebDAV, and other storage systems. :contentReference[oaicite:0]{index=0}
 
-The familiar two-panel interface provides local and remote file browsing while the transfer queue and message log make it easier to monitor ongoing operations.
+The familiar two-panel interface makes it possible to browse local and remote files, organize directories, manage transfers, and monitor connection activity from one application.
 
 ---
 
@@ -49,71 +53,72 @@ The familiar two-panel interface provides local and remote file browsing while t
 
 | Feature | Description |
 |---|---|
-| 📁 File Transfers | Move files between local and remote locations |
+| 📁 File Transfers | Upload and download files between local and remote locations |
 | 🔐 SFTP | Secure file transfers through SSH |
 | 🔒 FTPS | FTP connections using TLS encryption |
 | 🌐 FTP | Connect to compatible FTP servers |
-| ☁️ Cloud Storage | Work with supported cloud storage services |
-| 🗂️ WebDAV | Connect to compatible WebDAV storage |
+| ☁️ Cloud Storage | Connect directly to supported cloud platforms |
+| 🗂️ WebDAV | Work with compatible WebDAV storage |
 | 🖥️ Dual-Pane Interface | Browse local and remote files side by side |
-| 📊 Transfer Queue | Monitor active and pending transfers |
-| 📝 Message Log | Review connection and server activity |
-| 🔄 Transfer Recovery | Resume supported interrupted transfers |
-| ⚙️ Site Manager | Organize frequently used connections |
-| 🔎 Remote File Management | Browse and manage remote directories |
-| 📦 Large Transfers | Designed for professional file-transfer workflows |
-| 🧰 Advanced Configuration | Customize connection and transfer behavior |
+| 📊 Transfer Queue | Monitor active, queued, and completed transfers |
+| 📝 Message Log | Review connection and transfer activity |
+| 🔄 Resume Transfers | Continue supported interrupted transfers |
+| ⚙️ Site Manager | Organize frequently used server connections |
+| 🔎 File Search | Find files across supported remote locations |
+| 🔁 Directory Synchronization | Keep local and remote directories aligned |
+| 🛡️ Master Password | Protect stored connection credentials |
+| 🌍 Multi-Platform | Available for Windows, macOS, and Debian Linux |
 
 ---
 
-## ☁️ Cloud Storage
+## ☁️ Cloud Storage Support
 
-One of the main differences between FileZilla Pro and a traditional FTP client is its support for cloud-based storage workflows.
+One of the major additions provided by FileZilla Pro is direct cloud-storage integration.
 
-Depending on the service and current version, FileZilla Pro can provide access to supported cloud platforms and storage providers from the same desktop environment.
+The application supports a wide range of cloud and object-storage services, including:
 
-This can simplify workflows involving:
+- Amazon S3
+- Google Cloud Storage
+- Google Drive
+- Microsoft OneDrive
+- OneDrive for Business
+- Microsoft Azure
+- SharePoint
+- Dropbox
+- Box
+- Backblaze B2
+- Cloudflare R2
+- OpenStack Swift
+- Rackspace Cloud
+- WebDAV
 
-- Cloud file management
-- Remote backups
-- Large file transfers
-- Project storage
-- Server-to-cloud operations
-- Cloud-based archives
+This allows files to be transferred between a Windows computer, traditional servers, and supported cloud storage from the same interface. :contentReference[oaicite:1]{index=1}
 
 ---
 
-## 🔐 Secure File Transfers
+## 🔐 FTP, FTPS & SFTP
 
-FileZilla Pro supports multiple protocols designed for different server environments.
-
-### SFTP
-
-SFTP uses SSH for secure communication between the local computer and remote server.
-
-### FTPS
-
-FTPS adds TLS encryption to FTP connections where supported by the server.
+FileZilla Pro supports the three major transfer protocols commonly used for remote file management.
 
 ### FTP
 
-Traditional FTP connections remain available for compatible hosting and server environments.
+FTP provides traditional file transfer capabilities for compatible servers and hosting environments.
 
-The appropriate protocol depends on the configuration of the remote service.
+### FTPS
 
----
+FTPS adds TLS encryption to FTP connections when supported by the remote server.
 
-## 🌐 WebDAV Support
+### SFTP
 
-FileZilla Pro can be used with compatible WebDAV services for remote file management.
+SFTP uses SSH for secure file transfers between the local computer and a compatible remote server. :contentReference[oaicite:2]{index=2}
 
-WebDAV is commonly used by online storage systems and collaboration platforms, allowing users to interact with remote directories through a file-transfer workflow.
+The correct protocol depends on the configuration and capabilities of the server you are connecting to.
 
 ---
 
 ## 📂 Professional File Management
 
-FileZilla Pro provides a familiar environment for working with local and remote directories.
+FileZilla Pro provides a familiar workspace for managing local and remote directories.
 
 Users can:
 
@@ -126,31 +131,36 @@ Users can:
 - Browse remote folders
 - Compare local and remote locations
 - Manage multiple transfers
+- Search supported remote locations
+
+The side-by-side layout makes it easy to move files between a Windows PC and a remote server or cloud location.
 
 ---
 
 ## 📊 Transfer Queue
 
-The transfer queue helps manage large or multi-file operations.
+The transfer queue provides a central view of ongoing and pending file operations.
 
-It provides visibility into transfers that are:
+It can be used to monitor:
 
-- Waiting
-- Active
-- Completed
-- Failed
-- Paused
-- Queued for later processing
+- Active transfers
+- Queued files
+- Completed transfers
+- Failed transfers
+- Paused operations
+- Transfer progress
+- File sizes
+- Upload and download activity
 
-This is particularly useful when working with large projects or transferring many files at once.
+FileZilla Pro also provides options for pausing, resuming, reordering, and managing queued transfers. :contentReference[oaicite:3]{index=3}
 
 ---
 
 ## 📝 Message Log
 
-The FileZilla Pro message log displays information about server connections and file-transfer operations.
+The FileZilla Pro message log displays information about server connections and file-transfer activity.
 
-It can be useful when diagnosing:
+It can be useful when investigating:
 
 - Connection problems
 - Authentication issues
@@ -159,13 +169,13 @@ It can be useful when diagnosing:
 - Directory access problems
 - Protocol configuration issues
 
-The log provides additional context when a transfer does not behave as expected.
+Detailed logging can provide additional information when a connection or transfer does not behave as expected.
 
 ---
 
 ## ⚙️ Site Manager
 
-Site Manager allows frequently used server configurations to be organized in one place.
+Site Manager allows frequently used server and cloud connections to be organized in one place.
 
 Connection profiles can contain information such as:
 
@@ -175,90 +185,118 @@ Connection profiles can contain information such as:
 - Authentication method
 - User account
 - Remote directory
+- Transfer settings
 - Connection preferences
 
-This makes it easier to return to commonly used servers without configuring every connection from scratch.
+FileZilla Pro also supports synchronizing Site Manager configuration between installations. :contentReference[oaicite:4]{index=4}
 
 ---
 
-## 🧰 Professional Workflows
+## 🔄 Directory Synchronization
 
-FileZilla Pro can fit into a variety of professional Windows workflows.
+FileZilla Pro includes directory synchronization features for comparing and keeping local and remote locations aligned.
 
-### Web Development
-
-Upload website files, manage hosting directories, and retrieve remote project files.
-
-### Server Administration
-
-Connect to compatible servers and organize remote directories through FTP, FTPS, or SFTP.
-
-### Cloud Management
-
-Work with supported cloud storage services from a desktop file-transfer environment.
-
-### Backup Workflows
-
-Transfer important files between local storage, servers, and supported remote storage platforms.
-
-### Project Management
-
-Move project assets, documents, media, and other files between different storage locations.
-
----
-
-## 🔄 Transfer Recovery
-
-When supported by the protocol and server, FileZilla Pro can resume interrupted file transfers.
-
-This can be useful for:
-
-- Large files
-- Long-running transfers
-- Remote servers
-- Cloud storage
-- Large project directories
-- Unstable network connections
-
----
-
-## 🖥️ Windows Integration
-
-FileZilla Pro is designed to provide a desktop workflow for Windows users who regularly work with remote files.
-
-The interface combines local file browsing, remote directories, connection management, transfer monitoring, and activity logs in one application.
-
----
-
-## 🔎 Remote File Management
-
-Working with remote directories is one of the core functions of FileZilla Pro.
-
-The remote file panel allows users to navigate server folders and perform common file-management operations without switching between multiple applications.
-
-This can be useful for:
+Synchronization can be useful when working with:
 
 - Website directories
-- Development servers
+- Development projects
+- Server backups
+- Cloud folders
 - Remote documents
-- Project assets
-- Backup locations
-- Cloud storage
-- Server files
+- Large project files
+
+Directory comparison can help identify files that are newer, missing, or different between two locations. :contentReference[oaicite:5]{index=5}
+
+---
+
+## 🔎 Comparative Search
+
+The application includes tools for comparing local and remote file locations.
+
+Depending on the selected location, users can filter and compare files based on information such as:
+
+- File name
+- File size
+- Modification date
+- Directory location
+- Local or remote availability
+
+This can make it easier to identify differences between project folders and server directories.
+
+---
+
+## 🛡️ Security & Credentials
+
+FileZilla Pro provides security-related options for connection management and stored credentials.
+
+A master password can be configured to protect stored passwords, while secure protocols such as SFTP and FTPS can be selected when encrypted transfers are required. :contentReference[oaicite:6]{index=6}
+
+For any remote connection, security settings should match the requirements of the server or cloud provider.
+
+---
+
+## 🧰 Remote File Editing
+
+FileZilla Pro can work with configured external editors for remote files.
+
+This can be useful for web development and server maintenance workflows where a user needs to:
+
+1. Open a remote file.
+2. Edit the file using a preferred application.
+3. Save the changes.
+4. Upload the updated version back to the remote location.
 
 ---
 
 ## 📈 Large File Transfers
 
-FileZilla Pro is suitable for workflows where transferring larger files or groups of files is part of the daily routine.
+FileZilla Pro is designed for workflows involving large files and large groups of files.
 
-The transfer queue provides a central view of ongoing operations, while supported resume functionality can help continue interrupted transfers.
+Supported transfers can be resumed after interruptions, reducing the need to restart an entire operation when a connection is temporarily interrupted. :contentReference[oaicite:7]{index=7}
+
+The transfer queue also provides a convenient way to manage multiple operations without manually starting every file individually.
 
 ---
 
-## 🔧 Configuration & Settings
+## 🧑‍💻 FileZilla Pro for Web Development
 
-FileZilla Pro includes configuration options for controlling connections, transfers, interface behavior, and other aspects of the application.
+FileZilla Pro can be useful for website and development workflows involving remote hosting.
+
+Typical tasks include:
+
+- Uploading website files
+- Downloading server files
+- Updating website assets
+- Managing hosting directories
+- Editing remote project files
+- Comparing local and remote folders
+- Moving project files between servers
+
+FTP, FTPS, and SFTP availability depends on the hosting provider and server configuration.
+
+---
+
+## ☁️ FileZilla Pro for Cloud Workflows
+
+FileZilla Pro can provide a single desktop interface for working with multiple cloud storage services.
+
+Instead of switching between different applications, users can configure supported cloud accounts through the FileZilla Pro connection system and transfer files using the familiar file-management interface.
+
+This can be useful for:
+
+- Cloud backups
+- Project storage
+- Media files
+- Remote archives
+- Server-to-cloud transfers
+- Cloud-to-server transfers
+- Development assets
+
+---
+
+## ⚙️ Configuration & Settings
+
+FileZilla Pro includes configuration options for connections, transfers, interface behavior, and file management.
 
 Depending on the workflow, settings can be adjusted for:
 
@@ -271,12 +309,14 @@ Depending on the workflow, settings can be adjusted for:
 - Interface preferences
 - Logging
 - Server connections
+- Cloud services
+- External file editors
 
 ---
 
 ## 💻 System Compatibility
 
-FileZilla Pro is designed for modern Windows desktop environments.
+FileZilla Pro is available for modern desktop platforms, including Windows. The current official documentation lists Windows 10 and later for the 64-bit Windows client. :contentReference[oaicite:8]{index=8}
 
 ### Windows
 
@@ -285,7 +325,7 @@ FileZilla Pro is designed for modern Windows desktop environments.
 - 64-bit Windows systems
 - Desktop and workstation PCs
 
-Specific features can depend on the FileZilla Pro version, Windows configuration, protocol, and connected service.
+Specific features can depend on the FileZilla Pro version, operating system, protocol, and connected service.
 
 ---
 
@@ -300,6 +340,7 @@ For smoother FileZilla Pro sessions:
 - Check the message log when a connection fails.
 - Avoid unnecessary simultaneous transfers.
 - Use resume functionality when supported.
+- Use directory comparison when maintaining project folders.
 - Keep FileZilla Pro updated.
 
 ---
@@ -308,39 +349,51 @@ For smoother FileZilla Pro sessions:
 
 ### What is FileZilla Pro?
 
-FileZilla Pro is a professional file transfer client for Windows that supports FTP, FTPS, SFTP, cloud storage, WebDAV, and other remote file-management workflows.
+FileZilla Pro is a professional file transfer client that supports FTP, FTPS, SFTP, WebDAV, and numerous cloud storage services. :contentReference[oaicite:9]{index=9}
 
 ### What is the difference between FileZilla and FileZilla Pro?
 
-FileZilla Pro extends the standard FileZilla workflow with additional capabilities aimed at professional users, including support for additional cloud and storage services.
+Both support FTP, FTPS, and SFTP. FileZilla Pro additionally provides direct integrations with major cloud storage services and other professional file-transfer features. :contentReference[oaicite:10]{index=10}
 
 ### Does FileZilla Pro support SFTP?
 
-Yes. FileZilla Pro supports SFTP connections through SSH.
+Yes. FileZilla Pro supports SFTP connections through SSH. :contentReference[oaicite:11]{index=11}
 
 ### Does FileZilla Pro support FTP?
 
-Yes. Traditional FTP connections are supported alongside FTPS and SFTP.
+Yes. FTP and FTPS are supported alongside SFTP.
 
-### Can FileZilla Pro connect to cloud storage?
+### Can FileZilla Pro connect to Amazon S3?
 
-Yes. FileZilla Pro provides support for multiple cloud and remote storage services, depending on the current version.
+Yes. Amazon S3 is among the cloud storage services supported by FileZilla Pro. :contentReference[oaicite:12]{index=12}
+
+### Can FileZilla Pro connect to Google Drive?
+
+Yes. Google Drive is supported through FileZilla Pro's cloud-storage integrations. :contentReference[oaicite:13]{index=13}
+
+### Can FileZilla Pro connect to OneDrive?
+
+Yes. Microsoft OneDrive and OneDrive for Business are supported. :contentReference[oaicite:14]{index=14}
 
 ### Does FileZilla Pro support WebDAV?
 
-Yes. Compatible WebDAV services can be accessed through FileZilla Pro.
+Yes. FileZilla Pro supports WebDAV connections. :contentReference[oaicite:15]{index=15}
 
-### What is the transfer queue used for?
+### What is Site Manager?
 
-The transfer queue lets you monitor and manage files waiting to be transferred or currently being processed.
+Site Manager is used to organize server and cloud connection profiles so they can be accessed again without entering connection settings from scratch.
+
+### What is the transfer queue?
+
+The transfer queue lets users monitor, pause, resume, reorder, and manage file-transfer operations. :contentReference[oaicite:16]{index=16}
 
 ### What is the message log?
 
-The message log displays connection and transfer activity and can help troubleshoot server or file-transfer problems.
+The message log displays connection and transfer activity and can help identify problems with authentication, servers, directories, or transfers.
 
 ### Is FileZilla Pro available for Windows?
 
-Yes. FileZilla Pro is available as a desktop application for Windows.
+Yes. FileZilla Pro is available for Windows as well as macOS and Debian Linux. :contentReference[oaicite:17]{index=17}
 
 ---
 
@@ -355,6 +408,13 @@ Yes. FileZilla Pro is available as a desktop application for Windows.
 - FileZilla Pro FTPS
 - FileZilla Pro cloud storage
 - FileZilla Pro WebDAV
+- FileZilla Pro Amazon S3
+- FileZilla Pro Google Drive
+- FileZilla Pro OneDrive
+- FileZilla Pro Azure
+- FileZilla Pro Dropbox
+- FileZilla Pro Box
+- FileZilla Pro Backblaze
 - FileZilla Pro file transfer
 - FileZilla Pro remote file manager
 - FileZilla Pro Site Manager
@@ -371,10 +431,10 @@ Yes. FileZilla Pro is available as a desktop application for Windows.
 
 ## 🏷️ Tags
 
-`FileZilla Pro` `FileZilla` `FTP` `SFTP` `FTPS` `WebDAV` `Cloud Storage` `File Transfer` `FTP Client` `SFTP Client` `Windows` `Windows 10` `Windows 11` `Remote Files` `Server Management` `Web Hosting` `Cloud Transfer` `File Management`
+`FileZilla Pro` `FileZilla` `FTP` `SFTP` `FTPS` `WebDAV` `Amazon S3` `Google Drive` `OneDrive` `Azure` `Dropbox` `Box` `Cloud Storage` `File Transfer` `FTP Client` `SFTP Client` `Windows` `Windows 10` `Windows 11` `Remote Files` `Server Management` `Web Hosting` `Cloud Transfer` `File Management`
 
 ---
 
 <p align="center">
-  <strong>FileZilla Pro — professional file transfer and remote storage management for Windows.</strong>
+  <strong>FileZilla Pro — professional file transfer and cloud storage management for Windows.</strong>
 </p>
